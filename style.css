@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 body {
     min-height: 100vh;
     display: grid;
@@ -13,7 +12,6 @@ body {
         "aside main"
         "aside footer";
 }
-
 nav {
     border: 1px solid white;
     text-align: center;
@@ -26,7 +24,6 @@ nav {
     background-color: black;
     color: white;
 }
-
 aside div {
     border-bottom: 1px solid white;
     border-left: 1px solid white;
@@ -34,18 +31,15 @@ aside div {
     color: white;
     text-align: center;
 }
-
 aside nav ul li a {
     font-size: medium;
     color: white;
 }
-
 aside nav {
     background-color: black;
     text-align: left;
     border: none;
 }
-
 aside {
     border-left: 1px solid white;
     border-right: 1px solid white;
@@ -74,7 +68,6 @@ main p {
     padding-left: 10px;
     padding: 10px;
 }
-
 footer {
     text-align: center;
     grid-area: footer;
